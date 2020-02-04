@@ -1,0 +1,24 @@
+{
+  "name": "node-express-mongo-starter",
+  "version": "1.0.0",
+  "description": "Simple starter for backend rest, with Node, Express, Api versioning, MongoDB, Redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --ignore tests",
+    "test": "jest"
+  },
+  "keywords": [
+    "interview"
+  ],
+  "author": "Michel Herszak",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2",
+    "puppeteer": "^2.0.0",
+    "redis": "^2.8.0"
+  }
+}
